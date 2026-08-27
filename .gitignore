@@ -1,0 +1,39 @@
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives / backups
+*.zip
+
+# Generated phonebook files
+phonebooks/
+testbook/
+
+# Local binaries / files
+optphonebook
+phonebooksync
